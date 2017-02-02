@@ -18,7 +18,7 @@
 
     <EditText
         android:id="@+id/pedit"
-        android:inputType="numberDecimal"
+        android:inputType="number|numberDecimal"
         android:layout_toRightOf="@id/ptext"
         android:layout_marginLeft="10px"
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
 
     <EditText
         android:id="@+id/ledit"
-        android:inputType="numberDecimal"
+        android:inputType="number|numberDecimal"
         android:layout_marginTop="10px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
